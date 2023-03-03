@@ -7,7 +7,7 @@ function App() {
       <nav className="nav">
         <div className="nav__logo--container">
           <div className="nav__logo__box">
-            <img src={moi} alt="user" />
+            <img className="nav__logo--image" src={moi} alt="user" />
           </div>
           <p className="nav__logo--text">Bekenbauers</p>
         </div>

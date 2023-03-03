@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+
+  &__logo--container {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  &__logo--image {
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%;
+  }
+}
