@@ -63,6 +63,7 @@ body {
   background-color: $primary-color;
 
   &__container {
+    perspective: 100rem;
     width: 120rem;
     margin: 0 auto;
     display: grid;
@@ -72,6 +73,17 @@ body {
 
     &--image-div {
       place-self: end;
+      transform-style: preserve-3d;
+      transition: transform 0.5s;
+    }
+
+    &--image-div:hover {
+      transform: rotateY(180deg);
+    }
+
+    &--image {
+      width: 100%;
+      height: 100%;
     }
 
     &--paragraph {
