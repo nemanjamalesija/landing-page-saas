@@ -1,5 +1,6 @@
 import React from 'react';
 import hero from '../images/hero.png';
+import threeDtest from '../images/threeDtest.png';
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
           <button className="btn hero__container--button">Learn more</button>
         </div>
         <div className="hero__container--image-div">
-          <img className="hero__container--image" src={hero} alt="hero" />
+          <img className="hero__container--image" src={threeDtest} alt="hero" />
         </div>
       </div>
     </section>

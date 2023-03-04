@@ -62,10 +62,10 @@ body {
 .hero__container--image-div {
   place-self: end;
   transform-style: preserve-3d;
-  transition: transform 0.5s;
+  transition: transform 2s;
 }
 .hero__container--image-div:hover {
-  transform: rotateY(180deg);
+  transform: rotateY(360deg);
 }
 .hero__container--image {
   width: 100%;
