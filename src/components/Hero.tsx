@@ -20,7 +20,26 @@ const Hero = () => {
           <button className="btn hero__container--button">Learn more</button>
         </div>
         <div className="hero__container--image-div">
-          <img className="hero__container--image" src={threeDtest} alt="hero" />
+          <img
+            className="hero__container--image img-one"
+            src={one}
+            alt="hero"
+          />
+          <img
+            className="hero__container--image img-two"
+            src={two}
+            alt="hero"
+          />
+          <img
+            className="hero__container--image img-three"
+            src={three}
+            alt="hero"
+          />
+          <img
+            className="hero__container--image img-four"
+            src={four}
+            alt="hero"
+          />
         </div>
       </div>
     </section>
