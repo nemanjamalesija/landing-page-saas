@@ -38,6 +38,7 @@ body {
   &__logo--container {
     @include flex-align();
     gap: 1.2rem;
+    cursor: pointer;
   }
 
   &__logo--image {
