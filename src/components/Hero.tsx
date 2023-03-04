@@ -1,10 +1,5 @@
 import React from 'react';
 import hero from '../images/hero.png';
-import threeDtest from '../images/threeDtest.png';
-import one from '../images/one.png';
-import two from '../images/two.png';
-import three from '../images/three.png';
-import four from '../images/four.png';
 
 const Hero = () => {
   return (
@@ -20,26 +15,7 @@ const Hero = () => {
           <button className="btn hero__container--button">Learn more</button>
         </div>
         <div className="hero__container--image-div">
-          <img
-            className="hero__container--image img-one"
-            src={one}
-            alt="hero"
-          />
-          <img
-            className="hero__container--image img-two"
-            src={two}
-            alt="hero"
-          />
-          <img
-            className="hero__container--image img-three"
-            src={three}
-            alt="hero"
-          />
-          <img
-            className="hero__container--image img-four"
-            src={four}
-            alt="hero"
-          />
+          <img className="hero__container--image" src={hero} alt="hero" />
         </div>
       </div>
     </section>
