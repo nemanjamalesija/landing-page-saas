@@ -1,6 +1,10 @@
 import React from 'react';
 import hero from '../images/hero.png';
 import threeDtest from '../images/threeDtest.png';
+import one from '../images/one.png';
+import two from '../images/two.png';
+import three from '../images/three.png';
+import four from '../images/four.png';
 
 const Hero = () => {
   return (
