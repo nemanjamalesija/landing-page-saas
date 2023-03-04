@@ -53,6 +53,7 @@ body {
     @include flex-align();
     gap: 10rem;
     font-size: 1.8rem;
+    cursor: pointer;
   }
 }
 
