@@ -8,21 +8,37 @@ html {
   font-size: 62.5%;
 }
 
+@mixin flex-align {
+  display: flex;
+  align-items: center;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fafafa;
+  height: 9rem;
+  padding: 0 6rem;
 
   &__logo--container {
-    display: flex;
-    align-items: center;
+    @include flex-align();
     gap: 1.2rem;
   }
 
   &__logo--image {
-    height: 3.2rem;
-    width: 3.2rem;
-    border-radius: 50%;
+    width: 25%;
+    background: transparent;
+  }
+
+  &__logo--text {
+    font-size: 1.8rem;
+  }
+
+  &__list {
+    list-style: none;
+    @include flex-align();
+    gap: 10rem;
+    font-size: 1.8rem;
   }
 }
