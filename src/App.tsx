@@ -1,5 +1,6 @@
 import React from 'react';
 import moi from './images/moi.png';
+import Hero from './components/Hero';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <li className="nav__list--item">Contact</li>
         </ul>
       </nav>
+      <Hero />
     </div>
   );
 }
